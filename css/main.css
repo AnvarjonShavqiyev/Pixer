@@ -1,0 +1,415 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/Open_Sans/OFL.txt') format('woff2'),
+        url('../fonts/Open_Sans/static/OpenSans-Medium.ttf') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+.header{
+    margin: 0 auto;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+}
+.navbar{
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}   
+.nav__menu{
+    margin-left: 470px;
+    margin-right: 24px;
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+.nav__menu a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.tel{
+    border: none;
+    border-radius: 5px;
+    background-color: #00BAFC;
+    padding: 8px 16px;
+}
+.tel p{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.home{
+    margin-bottom: 56px;
+}
+.innerhome{
+    height: 418px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hometext{
+    width: 465px;
+}
+.hometext h1{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+.hometext p{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.hometext button{
+    border: none;
+    border-radius: 5px;
+    background-color: #00BAFC;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 8px 16px;
+}
+.innerservice{
+    margin-bottom: 56px;
+}
+.innerservice > h1{
+    color: #000;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+.innerservice > p{    
+    color: #000;
+    text-align: center;
+    width: 719px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.service__list{
+    list-style-type: none;
+    gap: 48px 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.service__item{
+    width: 353.3px;
+    height: 260px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.10);    
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 24px 24px;
+    margin-bottom: 40px;
+    
+}
+.service__item h1{
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+.service__item p{
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.service__link{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.service__link button{
+    border: none;
+    border-radius: 5px;
+    background-color: #00BAFC;
+    padding: 8px 16px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.service__link a{
+    color: var(--blue, #00BAFC);
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+.work__title{
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+.work__text{
+    color: #000;
+    width: 719px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-bottom:16px;
+}
+.work__items{
+    display: flex;
+    margin-bottom: 32px;
+    align-items: center;
+}
+.work__items h3{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 8px;
+}
+.work__items p{
+    width: 439px;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.item__text{
+    margin: 0 auto;
+}
+.work__items:nth-child(even){
+    display: flex;
+    flex-direction: row-reverse;
+}
+.btndiv{
+    text-align: center;
+}
+.btn{
+    border-radius: 5px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #00BAFC;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    
+}
+
+.innerbooking{
+    background-color: #00BAFC;
+    height: 549px;
+    padding: 56px 100px;
+    margin-top: 56px;
+}
+.innerbooking h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.innerbooking p{
+    width: 719px;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.bookingcard{
+    width: 348px;
+    height: 304px;
+    background-color: #FFF;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bookingcard input{
+    border: none;
+    display: inline-block;
+    width: 300px;
+    height: 56px;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    
+}
+.bookingcard select{
+    border: none;
+    display: inline-block;
+    width: 300px;
+    height: 56px;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.footer{
+    height: 338px;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    max-width: 1200px;
+    height: 338px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000;
+
+}
+footer div{
+    margin-top: 51px;
+}
+
+
+
+footer div > p{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+
+
+.first__p{
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+
+.second{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFF;
+}
+
+
+.second ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px 0;
+}
+
+
+.third ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px 0;
+}
+
+
+.third li{
+    display: flex;
+}
+
+
+.third li p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFF;
+    margin-left: 8px;
+}
